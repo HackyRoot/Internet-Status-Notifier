@@ -10,5 +10,4 @@ upload_speed = st.upload(threads=threads)
 st.results.share()
 
 results_dict = st.results.dict()
-print(results_dict['ping'])
-
+ping = results_dict['ping']
